@@ -9,11 +9,8 @@ export class GoogleSheetApiService {
   private readonly credentials;
   private readonly auth;
   constructor() {
-    const credentialsPath = path.join(
-      __dirname,
-      '..',
-      'error-definition-importer-1495e7e47094.json',
-    );
+    const credentialsPath = path.join(__dirname, 'credentials.json');
+    console.log(credentialsPath);
 
     this.credentials = JSON.parse(fs.readFileSync(credentialsPath, 'utf-8'));
 

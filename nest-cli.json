@@ -5,7 +5,7 @@
   "compilerOptions": {
     "assets": [
       {
-        "include": "/error-definition-importer-1495e7e47094.json",
+        "include": "/google-sheet-api/credentials.json",
         "watchAssets": true
       }
     ],
